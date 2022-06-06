@@ -24,7 +24,7 @@ namespace SumOfTwoSmallest
             {
                 Array.Sort(numbs);
 
-                for(int i = 0; i < numbs.Length; i++)
+                for(int i = 0; i < countofnumbers; i++)
                 {
                     sum = sum + numbs[i];
                 }
